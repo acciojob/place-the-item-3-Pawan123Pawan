@@ -1,2 +1,16 @@
 
 /* Your CSS Code here. */
+/* Flexbox properties on the holder */
+.holder {
+  display: flex;
+  flex-wrap: wrap; /* Allows items to go to the next row */
+  justify-content: space-evenly; /* Distributes items evenly in the row */
+}
+
+/* Styles for the items (you can adjust these according to your design) */
+.item {
+  width: 100px;
+  height: 100px;
+  background-color: #f2f2f2;
+  margin: 10px;
+}
